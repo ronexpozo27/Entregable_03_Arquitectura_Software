@@ -1,0 +1,15 @@
+flowchart TD
+    INI([Inicio]) --> ADM[Admisión de emergencia]
+    ADM --> ID{¿Identificación disponible?}
+    ID -->|Sí| PAC[Identificar paciente]
+    ID -->|No| PRO[Crear registro provisional autorizado]
+    PAC --> TRI[Triaje por personal autorizado]
+    PRO --> TRI
+    TRI --> MED[Atención médica]
+    MED --> DEC{¿Resultado?}
+    DEC -->|Alta| ALTA[Registrar alta / cierre]
+    DEC -->|Derivación| DER[Registrar derivación]
+    DEC -->|En curso| SEG[Actualizar seguimiento]
+    SEG --> MED
+    ALTA --> FIN([Fin])
+    DER --> FIN

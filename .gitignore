@@ -1,0 +1,10 @@
+# Archivos locales de editores, compilación y sistema
+.DS_Store
+Thumbs.db
+bin/
+obj/
+node_modules/
+.angular/
+.env
+.env.*
+!.env.example

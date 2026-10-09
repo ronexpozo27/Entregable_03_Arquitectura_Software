@@ -1,0 +1,9 @@
+flowchart LR
+    WEB[Angular] -->|HTTPS / JSON| API[Emergency.Api]
+    API --> APP[Emergency.Application]
+    APP --> DOM[Emergency.Domain]
+    API -.->|registro DI| INF[Emergency.Infrastructure]
+    INF --> APP
+    INF --> DOM
+    INF --> DB[(PostgreSQL)]
+    INF -.-> EXT[Servicios externos autorizados]

@@ -1,0 +1,8 @@
+flowchart TB
+    A[Personal de admisión, enfermería, médico, administrador] --> B[Presentación - Angular]
+    B -->|HTTPS / REST| C[ASP.NET Core Web API]
+    C --> D[Aplicación - Casos de uso]
+    D --> E[Dominio - Reglas y entidades]
+    D -->|Puertos de persistencia e integración| F[Infraestructura - Adaptadores / EF Core]
+    F --> G[(PostgreSQL)]
+    F -.->|Acceso autorizado| H[RENIEC / SIS / Historia clínica]
