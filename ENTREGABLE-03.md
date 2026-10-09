@@ -1,11 +1,10 @@
 # ENTREGABLE 03: ESTILO ARQUITECTÓNICO + ENFOQUE ARQUITECTÓNICO
 
-**Universidad:** Universidad Nacional de San Cristóbal de Huamanga (UNSCH)  
+**Universidad:** Universidad Nacional de San Cristóbal de Huamanga  
 **Escuela profesional:** Ingeniería de Sistemas  
 **Asignatura:** Laboratorio de Arquitectura de Software  
 **Estudiante:** Ronex Pozo Sarmiento  
 **Proyecto:** Sistema Web para la Gestión de Atención de Emergencias del Hospital Regional de Ayacucho  
-**Fecha:** Octubre de 2026
 
 ---
 
